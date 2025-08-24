@@ -1,0 +1,48 @@
+site_name: Wordpocket Documentation
+site_description: Official documentation for Wordpocket - lightweight dictionary & translation tool
+site_author: Enes
+
+theme:
+  name: material
+  logo: images/logo.png
+  favicon: images/logo.ico
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: deep blue
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: deep blue
+      accent: deep purple
+
+nav:
+  - Getting Started: index.md
+  - FAQ: faq.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji
+
+extra:
+  social:
+    - icon: fontawesome/brands/instagram
+      link: https://github.com/KULLANICIADI/wordpocket
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/
+    - icon: fontawesome/brands/facebook
+      link: https://discord.gg/
